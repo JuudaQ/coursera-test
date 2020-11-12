@@ -1,0 +1,77 @@
+* {
+	box-sizing: border-box;
+	overflow: auto;
+}
+
+@media (min-width: 992px) {
+	.cont-1, .cont-2, .cont-3 {
+		float: left;
+		width: 33.33%;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+	.cont-1, .cont-2 {
+		float: left;
+		width: 50%;
+	}
+	.cont-3 {
+		float: left;
+		width: 100%;
+	}
+}
+
+@media (max-width: 767px) {
+	.cont-1, .cont-2, .cont-3 {
+		float: left;
+		width: 100%;
+	}
+}
+
+body {
+	font-size: 10px;
+}
+
+
+header {
+	text-align: center;
+	font-family: helvetica;
+	font-size: 1.75em;
+}
+
+.cont-11, .cont-21, .cont-31 {
+	background-color: #696969;
+	border: 2px solid black;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	margin-left: 15px;
+	margin-right: 15px;
+}
+
+.heading {
+	position: relative;
+	left: 70%;
+	margin-right: 70%;
+	border-left: 1px solid black;
+	border-bottom: 1px solid black;
+	text-align: center;
+	overflow: auto;
+	font-size: 1.25em;
+
+}
+
+#beef {
+	background-color: #FF0000;
+}
+
+#pork {
+	background-color: #FF69B4;
+}
+
+#seafood {
+	background-color: #00FFFF;
+}
+
+.content {
+	padding: 10px 15px 10px 15px;
+}
